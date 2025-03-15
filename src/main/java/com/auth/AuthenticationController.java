@@ -23,4 +23,5 @@ public class AuthenticationController {
         service.register(request);
         return ResponseEntity.accepted().build();
 
+    }
 }
